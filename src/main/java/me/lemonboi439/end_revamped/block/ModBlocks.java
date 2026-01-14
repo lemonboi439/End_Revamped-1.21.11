@@ -9,6 +9,9 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.ItemGroups;
+
 
 import java.util.function.Function;
 
@@ -54,5 +57,9 @@ public class ModBlocks {
             true
     );
 
-    public static void init() {}
+    public static void init() {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
+            entries.add(VOID_GRASS);
+        });
+    }
 }
