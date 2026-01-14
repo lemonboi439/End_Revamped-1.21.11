@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:purple_dye" },
+    { "item": "minecraft:grass_block" },
+    { "item": "minecraft:end_stone" }
+  ],
+  "result": {
+    "item": "end_revamped:void_grass",
+    "count": 1
+  }
+}

@@ -3,7 +3,7 @@
 	"id": "end-revamped",
 	"version": "${version}",
 	"name": "End Revamped",
-	"description": "End mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
 	],
@@ -20,9 +20,6 @@
 		],
 		"fabric-datagen": [
 			"me.lemonboi439.end_revamped.EndRevampedDataGenerator"
-		],
-		"client": [
-			"me.lemonboi439.end_revamped.EndRevampedClient"
 		]
 	},
 	"mixins": [

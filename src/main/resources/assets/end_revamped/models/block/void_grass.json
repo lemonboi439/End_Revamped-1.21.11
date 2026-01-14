@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "end_revamped:block/void_grass_top",
+    "bottom": "end_revamped:block/void_grass_bottom",
+    "side": "end_revamped:block/void_grass_side"
+  }
+}
