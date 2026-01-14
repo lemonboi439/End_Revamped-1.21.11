@@ -1,4 +1,17 @@
 {
   "block.end_revamped.void_grass": "Void Grass",
-  "item.end_revamped.void_grass": "Void Grass"
+  "item.end_revamped.void_grass": "Void Grass",
+  "block.end_revamped.eldershade_log": "Eldershade Log",
+  "item.end_revamped.eldershade_log": "Eldershade Log",
+  "itemGroup.end_revamped.end_revamped": "End Revamped",
+  "block.end_revamped.eldershade_planks": "Eldershade Planks",
+  "item.end_revamped.eldershade_planks": "Eldershade Planks",
+  "block.end_revamped.eldershade_stairs": "Eldershade Stairs",
+  "item.end_revamped.eldershade_stairs": "Eldershade Stairs",
+  "block.end_revamped.eldershade_slab": "Eldershade Slab",
+  "item.end_revamped.eldershade_slab": "Eldershade Slab"
+
+
+
+
 }

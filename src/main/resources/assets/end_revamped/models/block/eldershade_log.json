@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "end_revamped:block/eldershade_log",
+    "end": "end_revamped:block/eldershade_log_top"
+  }
+}

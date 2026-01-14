@@ -11,7 +11,19 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item VOID_GRASS_ITEM = registerBlockItem("void_grass", ModBlocks.VOID_GRASS);
+    public static final Item VOID_GRASS_ITEM =
+            registerBlockItem("void_grass", ModBlocks.VOID_GRASS);
+    public static final Item ELDERSHADE_LOG_ITEM =
+            registerBlockItem("eldershade_log", ModBlocks.ELDERSHADE_LOG);
+    public static final Item ELDERSHADE_PLANKS_ITEM =
+            registerBlockItem("eldershade_planks", ModBlocks.ELDERSHADE_PLANKS);
+    public static final Item ELDERSHADE_STAIRS_ITEM =
+            registerBlockItem("eldershade_stairs", ModBlocks.ELDERSHADE_STAIRS);
+    public static final Item ELDERSHADE_SLAB_ITEM =
+            registerBlockItem("eldershade_slab", ModBlocks.ELDERSHADE_SLAB);
+
+
+
 
     private static Item registerBlockItem(String name, net.minecraft.block.Block block) {
 

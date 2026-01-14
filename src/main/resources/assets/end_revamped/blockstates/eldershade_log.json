@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=x": { "model": "end_revamped:block/eldershade_log", "x": 90, "y": 90 },
+    "axis=y": { "model": "end_revamped:block/eldershade_log" },
+    "axis=z": { "model": "end_revamped:block/eldershade_log", "x": 90 }
+  }
+}

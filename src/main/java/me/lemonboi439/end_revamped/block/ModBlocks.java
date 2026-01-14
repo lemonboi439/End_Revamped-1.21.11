@@ -1,8 +1,7 @@
 package me.lemonboi439.end_revamped.block;
 
 import me.lemonboi439.end_revamped.EndRevamped;
-import net.minecraft.block.Block;
-import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -35,6 +34,34 @@ public class ModBlocks {
             Block::new,
             AbstractBlock.Settings.create().strength(0.6f)
     );
+
+    public static final Block ELDERSHADE_LOG = register(
+            "eldershade_log",
+            PillarBlock::new,
+            AbstractBlock.Settings.create().strength(2.0f).requiresTool()
+    );
+
+    public static final Block ELDERSHADE_PLANKS = register(
+            "eldershade_planks",
+            Block::new,
+            AbstractBlock.Settings.create().strength(2.0f).requiresTool()
+    );
+
+    public static final Block ELDERSHADE_STAIRS = register(
+            "eldershade_stairs",
+            (settings) -> new StairsBlock(ModBlocks.ELDERSHADE_PLANKS.getDefaultState(), settings),
+            AbstractBlock.Settings.create().strength(2.0f).requiresTool()
+    );
+
+    public static final Block ELDERSHADE_SLAB = register(
+            "eldershade_slab",
+            SlabBlock::new,
+            AbstractBlock.Settings.create().strength(2.0f).requiresTool()
+    );
+
+
+
+
 
     public static void init() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "end_revamped:block/eldershade_slab_bottom" },
+    "type=top":    { "model": "end_revamped:block/eldershade_slab_top" },
+    "type=double": { "model": "end_revamped:block/eldershade_planks" }
+  }
+}
