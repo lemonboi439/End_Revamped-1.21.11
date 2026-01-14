@@ -1,6 +1,7 @@
 package me.lemonboi439.end_revamped;
 
 import me.lemonboi439.end_revamped.block.ModBlocks;
+import me.lemonboi439.end_revamped.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,6 +19,7 @@ public class EndRevamped implements ModInitializer {
 	public void onInitialize() {
 
 		ModBlocks.init();
+		ModItems.init();
 
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
